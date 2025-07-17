@@ -1,0 +1,62 @@
+# .NET build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Visual Studio
+.vs/
+
+# DotCover
+*.dotCover
+
+# Logs
+*.log
+
+# Database files (for SQLite)
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets
+secrets.json
+*.pfx
+
+# Entity Framework
+Migrations/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.testsettings
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Auto-generated files
+Generated_Code/
+
+# Publish output
+publish/
+*.Publish.xml
+
+# node_modules if any frontend included
+node_modules/
+
+# Others
+*.cache
+*.ncrunch*
+_ReSharper*/
